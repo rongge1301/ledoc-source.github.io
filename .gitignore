@@ -119,3 +119,6 @@ bower_components
 build
 cssversion.txt
 jsversion.txt
+
+### hexo ###
+.deploy_git

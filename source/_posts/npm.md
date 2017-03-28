@@ -2,8 +2,9 @@
 title: npm 组件介绍
 date: 2017-03-23 19:11:50
 tags:
+categories: "项目"
 ---
-### npm组件文档
+### 乐视金融前端组npm组件文档说明
 <!-- more -->
 
 ***
@@ -89,7 +90,8 @@ var Share = require('share-le');
 Share({
                     config: require('./config'),    //配置文件地址
                     eventEle:$('#shareBtn'),        //监听显示分享浮层事件的按钮 
-                    shareUrl:shareUrl,              //分享地址 
+                    shareUrl:shareUrl,              //分享地址
+                    letvClient:false,               //开启乐视视频app分享
                     webpageShare:[1],             //h5分享所需的社交平台   0,所有平台 1，微博 
                     appSharePlarform:[0],         //app分享所需的社交平台  0,所有平台 1,微信平台 2，微博 3，qq 4,qq空间 
                     callback:function(){            //分享成功后回调 
